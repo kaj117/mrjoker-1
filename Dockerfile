@@ -69,7 +69,7 @@ RUN git clone -b main https://github.com/kmacprt/mrjoker-1 /root/mrjoker
 WORKDIR /root/mrjoker
 
 #Copy config file to /root/mrjoker/mrjoker
-COPY ./mrjoker/sample_config.py ./mrjoker/config.py* /root/mrjoker/mrjoker/
+
 
 ENV PATH="/home/bot/bin:$PATH"
 
